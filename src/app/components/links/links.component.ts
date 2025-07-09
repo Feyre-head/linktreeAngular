@@ -3,9 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-links',
   imports: [],
+  standalone: true,
   templateUrl: './links.component.html',
-  styleUrl: './links.component.scss'
+  styleUrls: ['./links.component.scss'],
 })
-export class LinksComponent {
-
-}
+export class LinksComponent {}
